@@ -1,0 +1,30 @@
+{
+    "name": "techlify-inc/laravel-model-logger",
+    "description": "A Module with that providers event logging for Laravel Models",
+    "type": "package",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Techlify Inc.",
+            "email": "info@techlify.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TechlifyInc\\LaravelModelLogger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TechlifyInc\\LaravelModelLogger\\LaravelModelLoggerServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "TechlifyInc\\LaravelModelLogger\\LaravelModelLoggerFacade"
+            }
+        }
+    }
+}
