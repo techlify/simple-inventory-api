@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\Inventory;
+namespace TechlifyInc\TechlifySimpleInventory\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Inventory\InventoryItem;

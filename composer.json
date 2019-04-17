@@ -14,16 +14,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "TechlifyInc\\LaravelModelLogger\\": "src/"
+            "TechlifyInc\\TechlifySimpleInventory\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "TechlifyInc\\LaravelModelLogger\\LaravelModelLoggerServiceProvider"
+                "TechlifyInc\\TechlifySimpleInventory\\TechlifySimpleInventoryServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "TechlifyInc\\LaravelModelLogger\\LaravelModelLoggerFacade"
+                "Debugbar": "TechlifyInc\\TechlifySimpleInventory\\TechlifySimpleInventoryFacade"
             }
         }
     }
