@@ -1,16 +1,16 @@
 <?php
 
-namespace TechlifyInc\LaravelModelLogger;
+namespace TechlifyInc\TechlifySimpleInventory;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Description of LaravelModelLoggerFacade
+ * Description of TechlifySimpleInventoryFacade
  *
  * @author 
  * @since
  */
-class LaravelModelLoggerFacade extends Facade
+class TechlifySimpleInventoryFacade extends Facade
 {
 
     protected static function getFacadeAccessor()

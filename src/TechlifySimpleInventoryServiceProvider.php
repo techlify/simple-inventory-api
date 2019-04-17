@@ -1,15 +1,15 @@
 <?php
 
-namespace TechlifyInc\LaravelModelLogger;
+namespace TechlifyInc\TechlifySimpleInventory;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Description of LaravelModelLoggerServiceProvider
+ * Description of TechlifySimpleInventoryServiceProvider
  *
  * @author 
  */
-class LaravelModelLoggerServiceProvider extends ServiceProvider
+class TechlifySimpleInventoryServiceProvider extends ServiceProvider
 {
 
     /**
@@ -30,12 +30,12 @@ class LaravelModelLoggerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(LaravelModelLogger::class, function ()
+        $this->app->singleton(TechlifySimpleInventory::class, function ()
         {
-            return new LaravelModelLogger();
+            return new TechlifySimpleInventory();
         });
 
-        $this->app->alias(LaravelModelLogger::class, 'laravel-model-logger');
+        $this->app->alias(TechlifySimpleInventory::class, 'techlify-simple-inventory');
     }
 
 }
