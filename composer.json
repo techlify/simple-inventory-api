@@ -14,16 +14,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "TechlifyInc\\TechlifySimpleInventory\\": "src/"
+            "Techlify\\SimpleInventory\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "TechlifyInc\\TechlifySimpleInventory\\TechlifySimpleInventoryServiceProvider"
+                "Techlify\\SimpleInventory\\SimpleInventoryServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "TechlifyInc\\TechlifySimpleInventory\\TechlifySimpleInventoryFacade"
+                "Debugbar": "Techlify\\SimpleInventory\\SimpleInventoryFacade"
             }
         }
     }

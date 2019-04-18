@@ -22,7 +22,7 @@ Just add the following trait to models that needs logging:
 
 
 ```php
-use TechlifyInc\LaravelModelLogger\Traits\LoggableModel;
+use Techlify\LaravelModelLogger\Traits\LoggableModel;
 ```
 
 

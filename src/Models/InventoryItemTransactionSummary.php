@@ -1,6 +1,6 @@
 <?php
 
-namespace TechlifyInc\TechlifySimpleInventory\Models;
+namespace Techlify\SimpleInventory\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

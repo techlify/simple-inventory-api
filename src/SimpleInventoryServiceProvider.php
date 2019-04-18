@@ -1,15 +1,15 @@
 <?php
 
-namespace TechlifyInc\TechlifySimpleInventory;
+namespace Techlify\SimpleInventory;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Description of TechlifySimpleInventoryServiceProvider
+ * Description of SimpleInventoryServiceProvider
  *
  * @author 
  */
-class TechlifySimpleInventoryServiceProvider extends ServiceProvider
+class SimpleInventoryServiceProvider extends ServiceProvider
 {
 
     /**
@@ -30,12 +30,12 @@ class TechlifySimpleInventoryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(TechlifySimpleInventory::class, function ()
+        $this->app->singleton(SimpleInventory::class, function ()
         {
-            return new TechlifySimpleInventory();
+            return new SimpleInventory();
         });
 
-        $this->app->alias(TechlifySimpleInventory::class, 'techlify-simple-inventory');
+        $this->app->alias(SimpleInventory::class, 'simple-inventory');
     }
 
 }

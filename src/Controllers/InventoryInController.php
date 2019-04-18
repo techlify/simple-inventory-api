@@ -1,9 +1,9 @@
 <?php
-namespace TechlifyInc\TechlifySimpleInventory\Controllers;
+namespace Techlify\SimpleInventory\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use TechlifyInc\TechlifySimpleInventory\Models\InventoryIn;
+use Techlify\SimpleInventory\Models\InventoryIn;
 
 class InventoryInController extends Controller
 {
