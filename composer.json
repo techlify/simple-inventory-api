@@ -1,5 +1,5 @@
 {
-    "name": "techlify-inc/laravel-model-logger",
+    "name": "techlify/simple-inventory",
     "description": "A Module with that providers event logging for Laravel Models",
     "type": "package",
     "require": {

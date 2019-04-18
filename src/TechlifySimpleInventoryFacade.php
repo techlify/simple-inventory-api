@@ -15,7 +15,7 @@ class TechlifySimpleInventoryFacade extends Facade
 
     protected static function getFacadeAccessor()
     {
-        return 'laravel-model-logger';
+        return 'techlify-simple-inventory';
     }
 
 }
